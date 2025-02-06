@@ -28,8 +28,7 @@ Este projeto foi desenvolvido como parte dos cursos de **Lógica de Programaçã
    ```
 3. Abra o arquivo `index.html` em um navegador.
 
-## Demonstração
-*Em breve, um link para a versão online do jogo poderá ser disponibilizado.*
+ou acesse remotamente através do seguinte link - `https://jogo-do-numero-secreto-five-umber.vercel.app`
 
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias! Para isso:
