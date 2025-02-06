@@ -1,5 +1,5 @@
 let listaNUmeros = [];
-let numeroLimite = 3;
+let numeroLimite = 100;
 
 let numeroSecreto = gerarNumero(); //gera numero secreto
 let tentativas = 1 //armazena a quantidade de tentativas do usuario
@@ -26,7 +26,7 @@ function gerarNumero() {
 function exibirTexto(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    
+
     if ('speechSynthesis' in window) {
         let utterance = new SpeechSynthesisUtterance(texto);
         utterance.lang = 'pt-BR'; 
